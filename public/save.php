@@ -20,6 +20,7 @@ $data = [
 'email' => sanitize($_POST['email'] ?? ''),
 'resumo' => sanitize($_POST['resumo'] ?? ''),
 'experiencias' => $_POST['experiencias'] ?? [],
+'formacoes' => $_POST['formacoes'] ?? [],
 'referencias' => $_POST['referencias'] ?? []
 ];
 

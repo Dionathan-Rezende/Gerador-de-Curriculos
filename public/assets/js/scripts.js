@@ -24,6 +24,17 @@ $('#exp-container').append(html);
 exp++;
 });
 
+let formacao = 0;
+$('#add-formacao').click(function(e){
+  e.preventDefault();
+  const html = `<div class='border p-2 mb-2'>
+    <input class='form-control mb-1' name='formacoes[${formacao}][curso]' placeholder='Curso / Formação'>
+    <input class='form-control mb-1' name='formacoes[${formacao}][instituicao]' placeholder='Instituição'>
+    <input class='form-control mb-1' name='formacoes[${formacao}][ano]' placeholder='Ano de Conclusão'>
+  </div>`;
+  $('#formacao-container').append(html);
+  formacao++;
+});
 
 // Campos dinâmicos de referência
 let ref = 0;

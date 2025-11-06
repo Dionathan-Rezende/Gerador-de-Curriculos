@@ -55,6 +55,15 @@
 </div>
 </div>
 
+<div class="card mb-3">
+  <div class="card-body">
+    <div class="d-flex align-items-center mb-2">
+      <h5 class="card-title mb-0">Formação / Escolaridade</h5>
+      <button id="add-formacao" class="btn btn-sm btn-outline-primary ms-3">+</button>
+    </div>
+    <div id="formacao-container"></div>
+  </div>
+</div>
 
 <div class="card mb-3">
 <div class="card-body">

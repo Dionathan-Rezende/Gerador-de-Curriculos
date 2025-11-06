@@ -35,6 +35,10 @@ function e($v){return htmlspecialchars($v ?? '', ENT_QUOTES,'UTF-8');}
 <p><strong><?php echo e($exp['cargo']); ?></strong> - <?php echo e($exp['empresa']); ?> (<?php echo e($exp['periodo']); ?>)<br><?php echo nl2br(e($exp['descricao'])); ?></p>
 <?php endforeach; ?>
 
+<h5>Formação / Escolaridade</h5>
+<?php foreach ($data['formacoes'] as $f): ?>
+  <p><strong><?php echo e($f['curso']); ?></strong> - <?php echo e($f['instituicao']); ?> (<?php echo e($f['ano']); ?>)</p>
+<?php endforeach; ?>
 
 <h5>Referências</h5>
 <?php foreach ($data['referencias'] as $ref): ?>
