@@ -1,0 +1,35 @@
+{
+    "nome": "Dionathan Willian Rezende Caldeira",
+    "nascimento": "1997-02-04",
+    "idade": "28",
+    "telefone": "45998336214",
+    "email": "dionathanrezende@hotmail.com",
+    "resumo": "Busco iniciar na programação para ter desenvolver as habilidades obtidas na faculdade.",
+    "experiencias": [
+        {
+            "cargo": "Frentista",
+            "empresa": "Posto A",
+            "periodo": "2016-2020",
+            "descricao": "abastecimento de veiculos"
+        },
+        {
+            "cargo": "Montador de moveis",
+            "empresa": "Marcenaria X",
+            "periodo": "2020-2022",
+            "descricao": "montagem de moveis"
+        }
+    ],
+    "formacoes": [
+        {
+            "curso": "Analise e desenvolvimento de sistemas ",
+            "instituicao": "Unipar",
+            "ano": "2027"
+        }
+    ],
+    "referencias": [
+        {
+            "nome": "Fulano ",
+            "contato": "88927-8912"
+        }
+    ]
+}

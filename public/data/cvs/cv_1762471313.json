@@ -1,0 +1,44 @@
+{
+    "nome": "fbhfgndfyjmfgxndfgjms",
+    "nascimento": "2001-05-04",
+    "idade": "24",
+    "telefone": "345674537",
+    "email": "erhaerhaer@hotmail.com",
+    "resumo": "asdfgarsgaewrg",
+    "experiencias": [
+        {
+            "cargo": "wetwe",
+            "empresa": "gsdgew",
+            "periodo": "90-25",
+            "descricao": "sdljvndsoafghnb"
+        }
+    ],
+    "formacoes": [
+        {
+            "curso": "asdfasfg",
+            "instituicao": "fdasfdsweg",
+            "ano": "2020"
+        },
+        {
+            "curso": "",
+            "instituicao": "",
+            "ano": ""
+        },
+        {
+            "curso": "",
+            "instituicao": "",
+            "ano": ""
+        },
+        {
+            "curso": "",
+            "instituicao": "",
+            "ano": ""
+        }
+    ],
+    "referencias": [
+        {
+            "nome": "ghwsrthswerth",
+            "contato": "462345672457"
+        }
+    ]
+}
